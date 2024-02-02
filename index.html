@@ -3,13 +3,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Create Bootable USB with Ubuntu Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        h2 {
+            margin-top: 40px;
+        }
+        ol {
+         margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <title>Ubuntu Server Manual Installation (from bootable USB drive)</title>
-    <h1>Step 1. Download Ubuntu Server 22.04.03</h1>
-    <p><a href="https://ubuntu.com/download/server">Download Ubuntu Server</a></p>
-    <h1>Step 2. </h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam voluptates ipsam obcaecati perspiciatis in hic doloribus dolores adipisci vero quidem! Laudantium sint amet incidunt mollitia? Labore similique cumque commodi laudantium.</p>
+    <h1>Create Bootable USB with Ubuntu Server</h1>
+
+    <!-- Step 1: Download Ubuntu Server ISO -->
+    <h2>Step 1: Download Ubuntu Server ISO</h2>
+    <ol>
+        <li>Go to the official Ubuntu website: <a href="https://ubuntu.com/download/server">https://ubuntu.com/download/server</a></li>
+        <li>Download the Ubuntu Server ISO file. Choose the appropriate version.</li>
+    </ol>
+
+    <!-- Step 2: Prepare the USB Drive -->
+    <h2>Step 2: Prepare the USB Drive</h2>
+    <ol>
+        <li>Insert your USB drive into your computer.</li>
+        <li>Make sure the USB drive is empty, as the following steps will erase all data on it.</li>
+    </ol>
+
+    <!-- Step 3: Create a Bootable USB Drive with balenaEtcher -->
+    <h2>Step 3: Create a Bootable USB Drive with balenaEtcher</h2>
+    <ol>
+        <li>Download and install balenaEtcher from the official website: <a href="https://www.balena.io/etcher/">https://www.balena.io/etcher/</a></li>
+        <li>Open balenaEtcher.</li>
+        <li>Click on the "Flash from file" button and select the Ubuntu Server ISO file.</li>
+        <li>Select your USB drive.</li>
+        <li>Click on the "Flash!" button to create the bootable USB drive.</li>
+        <li>Once the process is complete, eject the USB drive.</li>
+    </ol>
+
+    <!-- Step 4: Boot from the USB Drive -->
+    <h2>Step 4: Boot from the USB Drive</h2>
+    <ol>
+        <li>Insert the bootable USB drive into the machine where you want to install Ubuntu Server.</li>
+        <li>Start or restart the machine.</li>
+        <li>During startup, access the BIOS or UEFI settings. The key to access these settings varies depending on the manufacturer (e.g. F2, F10, F12, or Del).</li>
+        <li>In the BIOS or UEFI settings, change the boot order to prioritize booting from the USB drive.</li>
+        <li>Save the changes and exit the BIOS or UEFI settings.</li>
+    </ol>
+
+    <!-- Step 5: Install Ubuntu Server -->
+    <h2>Step 5: Install Ubuntu Server</h2>
+    <ol>
+        <li>The machine should now boot from the USB drive and load the Ubuntu Server installer.</li>
+        <li>Follow the on-screen instructions to install Ubuntu Server on the machine.</li>
+    </ol>
+
+    <!-- Step 6: Complete Installation -->
+    <h2>Step 6: Complete Installation</h2>
+    <ol>
+        <li>Once the installation process is complete, remove the USB drive from the machine.</li>
+        <li>Restart the machine.</li>
+        <li>Ubuntu Server should now be installed.</li>
+    </ol>
 </body>
 </html>
