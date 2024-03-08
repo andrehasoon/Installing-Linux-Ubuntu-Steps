@@ -1,7 +1,7 @@
 # Installing-Linux-Ubuntu-Steps
 How to install Linux Ubuntu on a PC 
 
-<!-- <html lang="en"> -->
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -294,4 +294,4 @@ How to install Linux Ubuntu on a PC
  
 
 </body>
-<!-- </html> -->
+</html>
